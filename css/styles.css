@@ -37,6 +37,7 @@
     button {
         font-family: "Roboto", sans-serif;;
         cursor: pointer;
+        border: none;
     }
 
     h1,
@@ -104,6 +105,7 @@ ul{
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
+        margin-right: 76px;
 }
 
     .logo-accent {color: rgb(var(--cl-dark));}
@@ -128,25 +130,34 @@ ul{
     .header-menu-link:hover,
     .header-menu-link:focus {color:rgb(var(--cl-pressedstate))}
 
-    .address {font-style: normal;
+    .address {
+        font-style: normal;
        }
 
-    .contacts {display:flex;
+    .contacts {
+        display:flex;
         align-items: center;
         gap: 40px;
     }
 
-    .contacts-item {display: flex;
+    .contacts-item {
+        display: flex;
         }
 
-    .contacts-link { line-height: 1.5;
+    .contacts-link { 
+        line-height: 1.5;
         letter-spacing: 0.02em;
-    color:rgb(var(--cl-text));
-    padding: 24px 0;
-    display: inline-block;}
+        color:rgb(var(--cl-text));
+        padding: 24px 0;
+        display: inline-block;
+    }
 
-    .contacts-link:hover,.contacts-link:focus {color:rgb(var(--cl-pressedstate))}
-    .contacts-link:active{color:rgb(var(--cl-pressedstate))}
+    .contacts-link:hover,.contacts-link:focus {
+        color:rgb(var(--cl-pressedstate))
+    }
+    .contacts-link:active{
+        color:rgb(var(--cl-pressedstate))
+    }
 
 /* #endregion */
 
@@ -186,6 +197,8 @@ ul{
         padding: 16px 32px;
         min-width: 169px;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        height: 56px;
+
     }
 
     .btn-primary:hover,.btn-primary:focus {background-color: rgb(var(--cl-pressedstate));}
